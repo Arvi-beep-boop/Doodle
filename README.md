@@ -1,6 +1,11 @@
 # Doodle
 You can shoot, jump, dodge, stomp, climb - pretty much everything!
 
+## Description
+- I used AABB collision detection (maybe not the best solution, but works fine enough)
+- Some vector math, normalized vector, calculating direction etc.
+- Mind it is my first game in C++ and the architecture is pretty bad (especially inheritance aspects, I should do some kind of entity class and implement Update() function in Enemy, Player, Platform etc. I decided to move on instead of rewrite whole project) 
+
 ## Controls
 
 - press UP Arrow key to enable immunity ability. 
